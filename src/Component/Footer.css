@@ -1,0 +1,59 @@
+.foot{
+    border-bottom: 1px solid #ddd;
+}
+.btt{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232f3e;
+    padding: 1%;
+}
+.btt:hover{
+    background-color: #283a50;
+    cursor: pointer;
+}
+#btot{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+.linksft{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #0d1620;
+    margin: auto;
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+table th,td{
+    color: white;
+    width: 20%;
+    justify-content: left;
+   
+}
+table th{
+    font-size: 14px;
+}
+table td{
+    font-size: 12px;
+    padding-top: 1%;
+}
+table td:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.language{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+@media screen and (max-width:700px) {
+    table{
+        width: '100%';
+    }
+}

@@ -1,0 +1,51 @@
+.cpyr{
+    background-color: #061322;
+}
+.cpytable{
+    padding-top: 20px;
+}
+span{
+    font-size: 10px;
+    color: #ddd;
+}
+.lsttable{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    margin: 0px 0px 0px 10px;
+}
+ul li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.lsttable span{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+@media screen and (min-width:600px) and (max-width:991px) {
+    .cpytable{
+        width: 80%;
+        margin: auto;
+    }
+    .lsttable{
+        width: 80%;
+    }
+}
+@media screen and (min-width:300px) and (max-width:599px) {
+    .cpytable{
+        width: 100%;
+        margin: auto;
+    }
+    .lsttable{
+        width: 100%;
+    }
+}

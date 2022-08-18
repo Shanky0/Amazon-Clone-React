@@ -1,0 +1,45 @@
+.ctry{
+    background-color: #0d1620;
+    padding-bottom: 5%;
+}
+.footlang{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+    padding-top: 30px;
+}
+.langdiv{
+    border: 1px solid #ddd;
+    padding: 2%;
+}
+.countryname{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.countryname li{
+    list-style-type: none;
+    color: white;
+    margin: 0% 1%;
+    font-size: 12px;
+}
+.countryname li:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+}
+@media screen and (min-width:600px) and (max-width:991px) {
+    .footlang{
+        width: 45%;
+    }
+}
+@media screen and (min-width:300px) and (max-width:599px) {
+    .footlang{
+        width: 50%;
+    }
+}

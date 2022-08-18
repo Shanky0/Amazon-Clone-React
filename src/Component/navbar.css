@@ -1,0 +1,148 @@
+.head{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 1vw;
+}
+.location{
+    margin-left: 1vw;
+    color: white;
+    display: flex;
+    border: 1px solid black;
+    padding: 0px 5px;
+}
+.location:hover{
+    border: 1px solid white;
+}
+.location a{
+    text-decoration: none;
+}
+.srch{
+    margin-right: 1vw;
+    width: 50%;
+   text-align: center;
+}
+#categ{
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.eles{
+    padding: 1% 1.5%;
+}
+#srcbtn{
+    border-radius: 0px 5px 5px 0px;
+    background-color: orange;
+    border: 1px solid orange;
+}
+#srcbtn:hover{
+    cursor: pointer;
+}
+.lang{
+    margin-right: 2vw;
+}
+.hellosign{
+    margin-right: 1vw;
+    color: white;
+}
+.hellosign a{
+    text-decoration: none;
+    color: white;
+}
+.rtrn{
+    margin-right: 1vw;
+}
+.rtrn a{
+    text-decoration: none;
+    color: white;
+}
+.cart{
+    margin-right: 1vw;
+}
+.cart a{
+    text-decoration: none;
+    color: white;
+}
+.navbarsec{
+    background-color: #232f3e;
+    display: flex;
+    width: 100%;
+}
+.nav2ele{
+    color: white;
+}
+.nav2category{
+    display: flex;
+    width: 60%;
+    overflow: hidden;
+}
+.nav2category div{
+    margin: 0.5% 1%;
+}
+.nav2category a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+.shopnow{
+    margin-left: auto;
+    margin-right: 10%;
+    width: 25%;
+}
+
+.dropdown1{
+    background-color: #ddd;
+    display: none;
+    width: 200px;
+    z-index: 1;
+    padding: 1%;
+    position: absolute;
+}
+.lang:hover .dropdown1{
+    display: block;
+}
+.dropdown2{
+    display: none;
+    width: 300px;
+    z-index: 3;
+    padding: 1%;
+    position: absolute;
+    background-color: #ddd;
+    margin-left: -100px;
+}
+.dropdown2_2{
+    display: flex;
+    color: black;
+}
+.dropdown2_2_1{
+    border-right: 1px solid black;
+}
+.dropdown2_2_1 li{
+    list-style-type: none;
+}
+.dropdown2_2_1 li:hover{
+    cursor: pointer;
+}
+.dropdown2_2_2{
+    margin-left: 5px;
+}
+.dropdown2_2_2 li{
+    list-style-type: none;
+}
+.dropdown2_2_2 li:hover{
+    cursor: pointer;
+}
+.hellosign:hover .dropdown2{
+    display: block;
+}
+.drpdwn3{
+    background-color: #ddd;
+    display: none;
+    z-index: 3;
+    padding: 1%;
+    position: absolute;
+}
+.drpprime:hover .drpdwn3{
+    display: block;
+}

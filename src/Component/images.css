@@ -1,0 +1,37 @@
+.imagesc{
+    background: 
+    linear-gradient(rgb(54, 195, 238), transparent),
+    linear-gradient(to bottom left, rgb(69, 69, 209), transparent),
+    linear-gradient(to bottom right, rgb(91, 219, 91), transparent);
+    border: 1px solid black;
+    float: left;
+    width: 100%;
+}
+.imgcrd{
+    background-color: white;
+    width: 23%;
+    float: left;
+    margin: 1%;
+    padding: 2% 2%;
+}
+.offer{
+    margin-top: 4%;
+}
+.offer p{
+    color: blue;
+}
+.offer p>a{
+    text-decoration: none;
+}
+@media screen and (min-width:600px) and (max-width:991px) {
+    .imgcrd{
+        width: 45%;
+        margin: 2%;
+    }
+}
+@media screen and (min-width:300px) and (max-width:599px) {
+    .imgcrd{
+        width: 90%;
+        margin: 3%;
+    }
+}
