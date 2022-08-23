@@ -2,14 +2,22 @@
     background-color: rgb(20, 20, 20);
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 .logo{
+    padding: 0vh 3vh;
     margin-left: 1vw;
+    box-sizing: border-box;
+}
+.logo:hover{
+    border: 1px solid white;
 }
 .location{
     margin-left: 1vw;
+    width: 15vw;
     color: white;
     display: flex;
+    justify-content: space-around;
     border: 1px solid black;
     padding: 0px 5px;
 }
